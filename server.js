@@ -19,9 +19,7 @@ app.get("/vehicles", (req, res, next) => {
   }).catch(err => console.log(err))
 })
 
-
 app.post("/user/auth", (req, res, next) => {
-
   knex("modo_users").where({email: req.body.email}).then(result => {
     if(!result[0]){
       return res.send("We can't find that email address")

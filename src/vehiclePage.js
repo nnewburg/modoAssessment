@@ -61,18 +61,11 @@ class VehiclePage extends Component {
 
           {(vehicles && vehicles.length > 0) ? vehicles.map((vehicle) =>
           (<Vehicle attributes={vehicle} />
-          ))
-            : <div></div>
-          }
-
-
+          )) : <div></div> }
         </div>
-
       </div>
     )
   }
 }
 
 export default VehiclePage;
-
-
