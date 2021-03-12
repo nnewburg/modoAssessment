@@ -11,7 +11,7 @@ March 11th 2021
 
 React, Express, Postgres, Axios, Knex, Semantic UI built simple web app
 
-##Dependencies
+## Dependencies
 
 After cloning the repository run `yarn install` or `npm install`
 Then run `yarn build` to unpack React modules
@@ -60,11 +60,11 @@ Scripts to launch application
 
 In the modo directory run
 
-###`yarn start`
+ `yarn start`
 
 To launch the express server on port: 8080
 
-###`yarn react`
+`yarn react`
 
 To launch React client on port: 3000
 
